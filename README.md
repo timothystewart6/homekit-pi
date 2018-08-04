@@ -48,10 +48,10 @@ sudo apt-get install git make g++
 
 Install a precompiled version of `node`.  I am using `8.x` for `ARMv6`.  If you need something different, grab it from [here](https://nodejs.org/en/download/)
 ```bash
-wget https://nodejs.org/dist/v8.9.4/node-v8.9.4-linux-armv6l.tar.xz
-tar xJvf node-v8.9.4-linux-armv6l.tar.xz
+wget https://nodejs.org/dist/v8.9.4/node-v8.11.3-linux-armv6l.tar.xz
+tar xJvf node-v8.11.3-linux-armv6l.tar.xz
 sudo mkdir -p /opt/node
-sudo mv node-v8.9.4-linux-armv6l/* /opt/node/
+sudo mv node-v8.11.3-linux-armv6l/* /opt/node/
 sudo update-alternatives --install "/usr/bin/node" "node" "/opt/node/bin/node" 1
 sudo update-alternatives --install "/usr/bin/npm" "npm" "/opt/node/bin/npm" 1
 ```
